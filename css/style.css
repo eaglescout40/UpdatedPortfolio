@@ -767,7 +767,7 @@ body {
 /* 4. Home
 ================================= */
 .home {
-  background: url("../images/work.jpg") center center no-repeat scroll;
+  background: url("../images/work2.jpg") center center no-repeat scroll;
   background-size: cover;
 }
 .home .intro-section {
@@ -800,7 +800,7 @@ body {
 ================================= */
 /* 5.1 About Introduction */
 .aboutMe .kayo-intro-section {
-  background: url("../images/bg2.jpg") center center no-repeat fixed;
+  background: url("../images/work4.jpg") center center no-repeat fixed;
   background-size: cover;
 }
 
@@ -839,7 +839,7 @@ body {
 
 /* 5.3 My Service */
 .kayo-service {
-  background: url("../images/bg1.jpg") center center no-repeat fixed;
+  background: url("../images/work1.jpg") center center no-repeat fixed;
   background-size: cover;
 }
 .kayo-service .kayo-container {
@@ -884,7 +884,7 @@ body {
 
 /* 5.5 Facts About Me */
 .kayo-facts-about-me {
-  background: url("../images/bg3.jpg") center center no-repeat fixed;
+  background: url("../images/work3.jpg") center center no-repeat fixed;
   background-size: cover;
 }
 .kayo-facts-about-me .kayo-container {
@@ -1133,7 +1133,7 @@ body {
 ================================= */
 /* 6.1 Portfolio Introduction */
 .portfolio .kayo-intro-section {
-  background: url("../images/bg4.jpg") center center no-repeat fixed;
+  background: url("../images/work5.jpg") center center no-repeat fixed;
   background-size: cover;
 }
 
@@ -1187,6 +1187,8 @@ body {
 .port-box .portfolio-items .portfolio-item {
   position: relative;
   margin-bottom: 30px;
+  width: 300px;
+  height: 200px;
   overflow: hidden;
 }
 .port-box .portfolio-items .portfolio-item .port-data {
@@ -1304,7 +1306,7 @@ body {
 
 /* 7.1 Resume Introduction */
 .resume .kayo-intro-section {
-  background: url("../images/skills.jpg") center center no-repeat fixed;
+  background: url("../images/work6.jpg") center center no-repeat fixed;
   background-size: cover;
 }
 
@@ -1409,8 +1411,22 @@ body {
   margin-bottom: 0;
   font-size: 13px;
   line-height: 24px;
+  color: #BBB;
 }
-
+.education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-details ul {
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 24px;
+  color: #BBB;
+}
+.education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-details li {
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 24px;
+  color: #BBB;
+}
 .take-my-resume {
   margin: 30px 0;
   text-align: center;
@@ -1418,7 +1434,7 @@ body {
 
 /* 7.3 My Skills */
 .kayo-skills {
-  background: url("../images/skills.jpg") center center no-repeat fixed;
+  background: url("../images/work6.jpg") center center no-repeat fixed;
   background-size: cover;
 }
 .kayo-skills .technical-skills .progress-bar-container {
@@ -1507,7 +1523,7 @@ body {
 /* 8. Blog
 ================================= */
 .blog .kayo-intro-section {
-  background: url("../images/blog.jpg") center bottom no-repeat fixed;
+  background: url("../images/work8.jpg") center bottom no-repeat fixed;
   background-size: cover;
 }
 
@@ -1860,7 +1876,7 @@ body {
 
 /* 9.1 Contact Introduction */
 .contact .kayo-intro-section {
-  background: url("../images/contact.jpg") center bottom no-repeat fixed;
+  background: url("../images/work9.jpg") center bottom no-repeat fixed;
   background-size: cover;
 }
 
@@ -1874,7 +1890,7 @@ body {
 
 /* 9.3 Contact Form */
 .contact-form {
-  background: url("../images/contact.jpg") center bottom no-repeat fixed;
+  background: url("../images/work10.jpg") center bottom no-repeat fixed;
   background-size: cover;
 }
 .contact-form .kayo-container {
