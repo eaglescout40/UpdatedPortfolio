@@ -13,17 +13,17 @@ class sendEmail{
   public function __construct() {
       $this->mail = new PHPMailer;
       $this->mail->isSMTP();                                      // Set mailer to use SMTP
-      $this->mail->Host = 'EDIT HERE';                      // Specify main and backup SMTP servers
+      $this->mail->Host = 'smtp.gmail.com';                      // Specify main and backup SMTP servers
       $this->mail->SMTPAuth = true;                               // Enable SMTP authentication
-      $this->mail->Username = 'EDIT HERE';                 // SMTP username
-      $this->mail->Password = 'EDIT HERE';                 // SMTP password
+      $this->mail->Username = 'michael.adamssr40@gmail.com';                 // SMTP username
+      $this->mail->Password = 'M@4041ad';                 // SMTP password
       $this->mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-      $this->mail->Port = EDIT_HERE;
+      $this->mail->Port = 587;
       $this->mail->IsHTML(true);
   }
   public function send(){
-      $this->mail->setFrom('EDIT HERE', $this->sendFrom);
-      $this->mail->addAddress('EDIT HERE', 'EDIT HERE');     // Add a recipient
+      $this->mail->setFrom('Mailer', $this->sendFrom);
+      $this->mail->addAddress('michael.adamssr40@gmail.com', 'Michael');     // Add a recipient
       $this->mail->Subject = $this->subject;
       $this->mail->Body    = $this->Body;
       if(!$this->mail->send()) {
