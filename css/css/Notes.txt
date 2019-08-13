@@ -1,0 +1,7 @@
+MERN -- Backend Development
+M = Mongo - Dtabase
+E = Express - Webserver
+R = React - Javascript Library
+N = Node - Javascript 
+    liason to Client or Front End App (Browser)
+
