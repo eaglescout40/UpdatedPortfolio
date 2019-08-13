@@ -1,986 +1,1090 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
-
-    <title> Mr Adams </title>
-    <link rel="icon" href="images/iconA.png">
-    <meta name="description" content="freelancer web developer and web designer
-     my web development skills: HTMl5 -CSS3 - bootstrap - javaScript - jQuery - fabric.js - angular.js - Ajax -PHP (MVC) - wordpress -Mysql ;; I look forward to working with you soon.">
-    <meta name="keywords"
-          content="HTML,CSS,jquery,JavaScript,mr adams,michael adams,mradams,michael a adams sr">
-    <meta name="author" content="Mr Adams">
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/pe-icon-7-stroke.min.css">
-    <link rel="stylesheet" href="css/slick.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Sakura Documentation </title>
+    <link rel="icon" href="images/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeRDark.css" media="all">
+
     <link rel="stylesheet" href="css/style.css">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-<body data-spy="scroll" data-target=".app-links" data-offset="15" class="scrollspy-example sakura-demo2">
-
-<!-- navbar
-========================================-->
-<nav class="navbar navbar-default navbar-fixed-top appsLand-navbar sakura-navbar">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <span class="sakura-demo2-menu-toggle">
-                <i class="chart"></i>
-                <i class="chart"></i>
-                <i class="chart"></i>
-            </span>
-            <a class="navbar-brand" href="#">
-                <img alt="" src="images/iconA.png">
-            </a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="app-links" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right appsLand-links kayo-links">
-                <li class="visible-xs-block text-center mobile-size-logo">
-                    <a href="#">
-                        <img alt="" src="images/iconB.png" class="img-responsive">
-                    </a>
-                </li>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#history">History Highlights</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#blog">My Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+<body data-spy="scroll" data-target="#main-navbar" data-offset="120">
+<nav class="slide-menu" id="main-navbar">
+    <ul class="dash_links list-unstyled nav">
+        <li>
+            <a href="#welcome">Welcome</a>
+        </li>
+        <li>
+            <a href="#start"> Start</a>
+        </li>
+        <li>
+            <a href="#aside"> aside menu</a>
+        </li>
+        <li>
+            <a href="#home"> Home Section</a>
+        </li>
+        <li>
+            <a href="#aboutMe"> AboutMe Section</a>
+        </li>
+        <li>
+            <a href="#portfolio"> portfolio Section</a>
+        </li>
+        <li>
+            <a href="#resume"> Resume Section</a>
+        </li>
+        <li>
+            <a href="#blog"> Blog Section</a>
+        </li>
+        <li>
+            <a href="#contactMe"> ContactMe Section</a>
+        </li>
+        <li>
+            <a href="#contactForm"> Contact Form </a>
+        </li>
+        <li>
+            <a href="#other"> Other</a>
+        </li>
+    </ul>
 </nav>
+<!-- overlay will show when the menu opened in small size -->
+<div class="mobile-menu-overlay"></div>
+<div class="top_navbar">
+    <div class="logo-box">
+        <h3>Sakura</h3>
+    </div>
+    <span class="menu-toggle">
+        <div class="chart"></div>
+        <div class="chart"></div>
+        <div class="chart"></div>
+      </span>
+</div>
+<!-- dashboard page content -->
+<div class="dash_page_content">
+    <div class="dash_panel" id="welcome">
+        <img src="images/tempelate%20logo.png" class="img-responsive center-block">
+        <h1 class="text-center">Sakura - Documentation</h1>
+        <hr>
+        <p>
+            Sakura is a Modern HTML5 portfolio & resume Template. <br>
+            Sakura is 100% responsive. This template is best suitable for Portfolio / vCard / CV / Resume template designed for creative designers, developers,
+            freelancers, photographer or pretty much any profession around the world and in a few moments you can
+            customize this template to suit your own needs. All files are super organized and highly documented
+        </p>
+        <hr>
+        <ul class="list-unstyled">
+            <li>Created: 14/9/2017</li>
+            <li>Updated: 30/9/2017</li>
+            <li>By:
+                <a href="https://themeforest.net/user/mrkayo/portfolio">
+                    Mrkayo
+                </a>
+            </li>
+            <li>Email:
+                <a href="mailto:karemfcih@gmail.com">
+                    karemfcih@gmail.com
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="dash_panel" id="start">
+        <h1 class="section-title">What We Need To Start</h1>
+        <ol>
+            <li>Unzip The Template File</li>
+            <li>Install Code Editor Like <a href="https://code.visualstudio.com/" target="_blank">vs code</a></li>
+            <li>Open The Project In The Code Editor</li>
+            <li>Open <span class="blue-bold">index.html</span> on your web browser to see your website</li>
+        </ol>
+        <hr>
+        <p>
+            i will learn you how to edit the template in next sections
+        </p>
+    </div>
+    <div class="dash_panel" id="aside">
+        <h1 class="section-title">Aside Menu</h1>
+        <h3>social media links</h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it what you want</li>
+            <li>to change the link you need to change The value of <span class="blue-bold">href</span> attribute to your link <br> example <span class="blue-bold">href="http://example.com"</span></li>
+            <li>to change the icon <a href="#change_icon_countTo" class="scrollTo">click here</a></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 47;">
+                <!-- Start Social media -->
+                <ul class="social-media list-unstyled text-center">
+                    <li><a href="#" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="google-plus" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#" class="behance" target="_blank"><i class="fa fa-behance"></i></a></li>
+                </ul>
+            </pre>
+        </div>
+        <p>
+            to change the image you need to change The value of <span class="blue-bold">src</span> attribute to image URL <br> example <span class="blue-bold">src="images/1.png"</span>
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 47;">
+                <div class="kayo-img-box">
+                    <div class="kayo-img">
+                        <img src="http://placehold.it/175x175"/>
+                    </div>
+                </div>
+            </pre>
+        </div>
+        <p>
+            the <span class="blue-bold">href</span> value = the <span class="blue-bold">id</span> for the section
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 63;highlight: [66];">
+               <!-- Start Menu Links -->
+                <ul class="list-unstyled kayo-links">
+                    <li class="active">
+                        <a href="#home"><i class="fa fa-home"></i>Home</a>
+                    </li>
+                    <li>
+                        <a href="#aboutMe"><i class="glyphicon glyphicon-user"></i>About Me</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio"><i class="fa fa-laptop"></i>Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#resume"><i class="glyphicon glyphicon-leaf"></i>Resume</a>
+                    </li>
+                    <li>
+                        <a href="#contact"><i class="glyphicon glyphicon-headphones"></i>Contact Me</a>
+                    </li>
+                </ul>
+                <!-- End Menu Links -->
+            </pre>
+        </div>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 92;highlight: [94];">
+               <!-- Start Home
+                ===================================-->
+                <section class="full-page" id="home">
+                    <div class="home overlay-container">
+            </pre>
+        </div>
+    </div>
+    <div class="dash_panel" id="home">
+        <h1 class="section-title">Home Section</h1>
+        <h3>Edit Background Image - using <span class="blue-bold">SCSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">scss/style.scss</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>compile <span class="blue-bold">style.scss</span> file to <span class="blue-bold">css/style.css</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 242;highlight: [243];">
+                .home {
+                  @include backgroundImg($url: 'http://placehold.it/1920x1080');
+                  .intro-section {
+                    vertical-align: middle;
+                    .kayo-hello {
+                      margin: 0;
+                      color: #FFF;
+                      font-weight: 100;
+                      text-transform: uppercase;
+                    }
+            </pre>
+        </div>
+        <hr>
+        <h3>Edit Background Image - using <span class="blue-bold">CSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">css/style.css</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 596;highlight: [599];">
+                /* Start Home
+                ================================= */
+                .home {
+                  background: url("http://placehold.it/1920x1080") center center no-repeat scroll;
+                  background-size: cover;
+                }
+            </pre>
+        </div>
+        <hr>
+        <h3>Edit The Information</h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 99;highlight: [100, 103];">
+                <h3 class="kayo-hello">
+                    HI, IAM
+                </h3>
+                <h1 class="mr-kayo">
+                    JOHN DOE
+                </h1>
+                <h3 class="kayo-work-description">&nbsp;
+                    <span class="kayo-work"></span>
+                </h3>
+            </pre>
+        </div>
+        <ol>
+            <li>Open <span class="blue-bold">js/plugin.js</span> in the code editor</li>
+            <li>go to the code in the preview <span class="blue-bold">Save File</span></li>
+            <li>you can change <span class="blue-bold">Web Developer.</span> to any thing and you can add more or delete one like
+                <ul>
+                    <li>["Web Developer.", "Web Designer.", "DB designer"]</li>
+                    <li>OR ["Web Developer."]</li>
+                </ul>
+                <span class="blue-bold">Save File</span>
+            </li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: js; first-line: 35;highlight: [42];">
+                /**  Start Typed
+                 **====================== **/
+                $typedSection = $("#home");
+                $checkTyped = false;
+                function typed($typedSection) {
+                    if (!$checkTyped && $(document).scrollTop() === $typedSection.offset().top) {
+                        $(".kayo-work").typed({
+                            strings: ["Web Developer.", "Web Designer."],
+                            cursorChar: "",
+                            typeSpeed: 100,
+                            loop: true,
+                            backSpeed: 50,
+                        });
+                        $checkTyped = true;
+                    }
+                }
+            </pre>
+        </div>
+    </div>
+    <div class="dash_panel" id="aboutMe">
+        <h1 class="section-title">AboutMe Section</h1>
+        <h3>Edit Section Intro Background Image - using <span class="blue-bold">SCSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">scss/style.scss</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>compile <span class="blue-bold">style.scss</span> file to <span class="blue-bold">css/style.css</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 276;highlight: [278];">
+                .aboutMe {
+                  .aboutMe-intro-section {
+                    @include backgroundImg($url: "http://placehold.it/1920x1080", $position: fixed);
+                    .kayo-container {
+                      padding-top: 60px;
+                      padding-bottom: 60px;
+                    }
+                  }
+            </pre>
+        </div>
+        <hr>
+        <h3>Edit Section Intro Background Image - using <span class="blue-bold">CSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">css/style.css</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 631;highlight: [634];">
+                /* Start About Me
+                ================================= */
+                .aboutMe .aboutMe-intro-section {
+                  background: url("http://placehold.it/1920x1080") center center no-repeat fixed;
+                  background-size: cover;
+                }
+            </pre>
+        </div>
+        <hr>
+        <h3>Know Me Section</h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it</li>
+            <li>to change the link you need to change The value of <span class="blue-bold">href</span> attribute to your link <br> example <span class="blue-bold">href="http://example.com"</span></li>
+            <li>to change the image you need to change The value of <span class="blue-bold">src</span> attribute to image URL <br> example <span class="blue-bold">src="images/1.png"</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 137;highlight: [142, 149, 154, 156,157,158];">
+                <!-- Start know Me -->
+                <div class="my-information">
+                    <div class="kayo-container">
+                        <div class="mrkayo-main-title">
+                            <h2>
+                                KNOW ME
+                                <span class="kayo-line"></span>
+                            </h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div class="my-image">
+                                    <img src="http://placehold.it/600x700" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="kayo-info-detail">
+                                    <h3>HELLO,</h3>
+                                    <p>
+                                        I’m Saad Tarek. I designed this site so you can get to know me on a personal
+                                        level. My career as a UX Designer, my portfolio, my personal photography, my
+                                        blog, my favorite quotes, and so much more. So please sit back and enjoy!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </pre>
+        </div>
+        <h3>SERVICE Section</h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it</li>
+            <li>to change the link you need to change The value of <span class="blue-bold">href</span> attribute to your link <br> example <span class="blue-bold">href="http://example.com"</span></li>
+            <li>to change the image you need to change The value of <span class="blue-bold">src</span> attribute to image URL <br> example <span class="blue-bold">src="images/1.png"</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 165;highlight: [171,181, 185, 187, 188,198,202,204,205,215,219,221,222,232,236,238,239];">
+                <!-- Start My Service -->
+                <div class="kayo-service">
+                <div class="overlay">
+                    <div class="kayo-container">
+                        <div class="mrkayo-main-title">
+                            <h2>
+                                Service
+                                <span class="kayo-line"></span>
+                            </h2>
+                        </div>
+                        <div class="row">
 
-<main class="main-page-content">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="kayo-icon-list-box">
+                                    <div class="kayo-icon-box-container">
+                                        <div class="kayo-icon-box">
+                                            <span class="pe-7s-monitor kayo-icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="kayo-list-info">
+                                        <h4>Web Design</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
 
-    <!-- Start Home
-    ===================================-->
-    <section class="home bg-img" id="home">
-        <div class="overlay">
-            <div class="container">
-                <div class="intro-section display-table">
-                    <div class="display-table-cell">
-                        <h3 class="kayo-hello">HELLO, I AM</h3>
-                        <h1 class="mr-kayo">Michael A. Adams, Sr.</h1>
-                        <h3 class="kayo-work-description">&nbsp;<span class="kayo-work"></span></h3>
-                        <ul class="list-inline list-unstyled header-links">
-                            <!-- <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                                <a href="#" class="sakura-btn btn-inverse">
-                                    <i class="fa fa-rocket"></i>  Hire Me
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="kayo-icon-list-box">
+                                    <div class="kayo-icon-box-container">
+                                        <div class="kayo-icon-box">
+                                            <span class="pe-7s-phone kayo-icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="kayo-list-info">
+                                        <h4>Responsive UI</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="kayo-icon-list-box">
+                                    <div class="kayo-icon-box-container">
+                                        <div class="kayo-icon-box">
+                                            <span class="pe-7s-server kayo-icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="kayo-list-info">
+                                        <h4>DB Design</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="kayo-icon-list-box">
+                                    <div class="kayo-icon-box-container">
+                                        <div class="kayo-icon-box">
+                                            <span class="pe-7s-camera kayo-icon"></span>
+                                        </div>
+                                    </div>
+                                    <div class="kayo-list-info">
+                                        <h4>photography</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </pre>
+        </div>
+        <h3>SERVICE Section - Edit Background Image - using <span class="blue-bold">SCSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">scss/style.scss</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>compile <span class="blue-bold">style.scss</span> file to <span class="blue-bold">css/style.css</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 312;highlight: [313];">
+              .kayo-service {
+                @include backgroundImg($url: "http://placehold.it/1920x1080", $position: fixed);
+            </pre>
+        </div>
+        <h3>SERVICE Section - Edit Background Image - using <span class="blue-bold">CSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">css/style.css</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 669;highlight: [670];">
+                .aboutMe .kayo-service {
+                  background: url("http://placehold.it/1920x1080") center center no-repeat fixed;
+                  background-size: cover;
+                }
+            </pre>
+        </div>
+        <h3>MY CLIENTS Section</h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it what you want</li>
+            <li>to change the link you need to change The value of <span class="blue-bold">href</span> attribute to your link <br> example <span class="blue-bold">href="http://example.com"</span></li>
+            <li>to change the image you need to change The value of <span class="blue-bold">src</span> attribute to image URL <br> example <span class="blue-bold">src="images/1.png"</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 248;highlight: [253,260,265, 270, 275, 280,285];">
+                <!-- Start Me Clients -->
+                <div class="my-clients-logo">
+                    <div class="kayo-container">
+                        <div class="mrkayo-main-title">
+                            <h2>
+                                My Clients
+                                <span class="kayo-line"></span>
+                            </h2>
+                        </div>
+                        <div class="clients-slider">
+                            <div class="client-logo">
+                                <a href="#" target="_blank">
+                                    <img src="http://placehold.it/175x175" alt="">
                                 </a>
-                            </li> -->
-                            <li class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.75s">
-                                    <a href="MichaelAAdamsT0619.pdf" class="sakura-btn btn-inverse">
-                                    <i class="fa fa-download"></i>  My Resume
+                            </div>
+                            <div class="client-logo">
+                                <a href="#" target="_blank">
+                                    <img src="http://placehold.it/175x175" alt="">
                                 </a>
-                            </li>
-                        </ul>
+                            </div>
+                            <div class="client-logo">
+                                <a href="#" target="_blank">
+                                    <img src="http://placehold.it/175x175" alt="">
+                                </a>
+                            </div>
+                            <div class="client-logo">
+                                <a href="#" target="_blank">
+                                    <img src="http://placehold.it/175x175" alt="">
+                                </a>
+                            </div>
+                            <div class="client-logo">
+                                <a href="#" target="_blank">
+                                    <img src="http://placehold.it/175x175" alt="">
+                                </a>
+                            </div>
+                            <div class="client-logo">
+                                <a href="#" target="_blank">
+                                    <img src="http://placehold.it/175x175" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="open-page">
-                <a href="#about" class="scrollLink"><i class="fa fa-angle-down"></i></a>
-            </div>
+            </pre>
         </div>
-    </section>
-    <!-- End Home ==================-->
-
-    <!-- Start About Me
-   ===================================-->
-    <div class="my-information" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="my-image">
-                        <img src="images/Me.jpg" class="img-responsive" alt="">
-                    </div>
-                </div>
-                <div class="col-sm-8">
-                    <div class="kayo-info-detail">
-                        <h3>HELLO,</h3>
-                        <p>
-                            I’m Michael A. Adams, Sr. and I designed this site so you can get to know me on a personal
-                            level. My career as a UX Designer, my portfolio, my personal photography, my
-                            blog, my favorite quotes, and so much more. So please sit back and enjoy!
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End About Me ==================-->
-
-    <!-- Start My Service
-    ===================================-->
-    <div class="kayo-service bg-img">
-        <div class="overlay">
-            <div class="container mb_-30px">
-                <div class="mrkayo-main-title">
-                    <h2>
-                        Service
-                        <span class="kayo-line"></span>
-                    </h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="kayo-icon-list-box">
-                            <div class="kayo-icon-box-container">
-                                <div class="kayo-icon-box">
-                                    <span class="pe-7s-monitor kayo-icon"></span>
-                                </div>
-                            </div>
-                            <div class="kayo-list-info">
-                                <h4>Web Design</h4>
-                                <p>
-                                    I have recently graduated from Georgia Tech's Bootcamp for Full Stack Development and I am available for Freelance work as well as Full Time Employment.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="kayo-icon-list-box">
-                            <div class="kayo-icon-box-container">
-                                <div class="kayo-icon-box">
-                                    <span class="pe-7s-phone kayo-icon"></span>
-                                </div>
-                            </div>
-                            <div class="kayo-list-info">
-                                <h4>Responsive UI</h4>
-                                <p>
-                                    My goal in designing a website is to make it look great on any and all devices so your clients can enjoy your services at home or on the go!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="kayo-icon-list-box">
-                            <div class="kayo-icon-box-container">
-                                <div class="kayo-icon-box">
-                                    <span class="pe-7s-server kayo-icon"></span>
-                                </div>
-                            </div>
-                            <div class="kayo-list-info">
-                                <h4>DB Design</h4>
-                                <p>
-                                    A proper database should have everything you need, nothing you don't, and it should simply work.  Is that too much to ask?
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <div class="kayo-icon-list-box">
-                            <div class="kayo-icon-box-container">
-                                <div class="kayo-icon-box">
-                                    <span class="pe-7s-camera kayo-icon"></span>
-                                </div>
-                            </div>
-                            <div class="kayo-list-info">
-                                <h4>Articles</h4>
-                                <p>
-                                    I have written many articles, posts, and stories. 
-                                </p>
-                                <p>    
-                                    I am available for Freelance as well as Full Time Employment.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End My Service ==================-->
-
-    <!-- Start Resume
-    ===================================-->
-    <div class="education-workHistory" id="history">
-        <div class="container">
-            <div class="mrkayo-main-title">
-                <h2>
-                    My Experience (Highlights)
-                    <span class="kayo-line"></span>
-                </h2>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="kayo-education">
-                        <h3 class="timeline-title">
-                            <i class="pe-7s-study"></i> <span>Education</span>
-                        </h3>
-                        <div class="timeline-content">
-                            <div class="timeline-box">
-                                <div class="timeline-date">
-                                    2019 - Present
-                                </div>
-                                <div class="timeline-info">
-                                    <div class="timeline-info-header">
-                                        <h3>Georgia Institute of Technology</h3>
-                                        <p>Full Stack Development</p>
-                                    </div>
-                                    <div class="timeline-info-details">
-                                        <p>
-                                            My skills include, but are not limited to, the following: Visual Code, HTML5, CSS3, JavaScript, jQuery, Bootstrap, React.js, Express.js, Node.js, MongoDB, MySQL, Command Line, Git,  API's and more. 
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="timeline-box">
-                                <div class="timeline-date">
-                                    2000 - 2002
-                                </div>
-                                <div class="timeline-info">
-                                    <div class="timeline-info-header">
-                                        <h3>DeVry University</h3>
-                                    </div>
-                                    <div class="timeline-info-details">
-                                        <p>
-                                            Studied Computer Sciences
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="kayo-experience">
-                        <h3 class="timeline-title">
-                            <i class="pe-7s-ribbon"></i> <span>Work History</span>
-                        </h3>
-                        <div class="timeline-content">
-                            <div class="timeline-box">
-                                <div class="timeline-date">
-                                    2018 - 2018
-                                </div>
-                                <div class="timeline-info">
-                                    <div class="timeline-info-header">
-                                        <h3>Octane5 (Contract)</h3>
-                                        <p>Help Desk Administrator</p>
-                                    </div>
-                                    <div class="timeline-info-details">
-                                        <p>
-                                            <ul>
-                                                <li>Created technical Training Scripts for training on Octane5 products</li> 
-                                                <li>Answered customer requests for help with technical questions</li> 
-                                                <li>Earned the White Belt for their White Belt Book of Knowledge</li> 
-                                                <li>Earned after one month. (Typically given three to six months after hire date)</li>
-                                            </ul>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="timeline-box">
-                                <div class="timeline-date">
-                                    2011 - 2016
-                                </div>
-                                <div class="timeline-info">
-                                    <div class="timeline-info-header">
-                                        <h3>McKesson</h3>
-                                        <p>Application Engineer (Level II)</p>
-                                    </div>
-                                    <div class="timeline-info-details">
-                                        <p>
-                                            <ul>
-                                                <li>Provided Level II Technical Support for their Patient Folder Hospital software ranging from version EPF 11.0 through MPF 16.2</li> 
-                                                <li>Wrote TSQL Queries for hospitals needing specific database information</li> 
-                                                <li>Created a set of MPF “Cheat Sheets” that brought the most used information on each of the software pieces eliminating approximately 85% of time wasted looking for this informatio</li> 
-                                            </ul>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="take-my-resume">
-                <a href="MichaelAAdamsT0619.pdf" class="kayo-btn-1"><span class="glyphicon glyphicon-cloud-download"></span>Take My Full Resume</a>
-            </div>
-        </div>
-    </div>
-    <!-- End Resume ==================-->
-
-    <!-- Start Skills
-    ===================================-->
-    <div class="kayo-skills bg-img">
-        <div class="overlay">
-            <div class="container">
-                <div class="soft-skills">
-                    <div class="mrkayo-main-title">
-                        <h2>
-                            Soft Skills
-                            <span class="kayo-line"></span>
-                        </h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <div class="progress-container">
-                                <div class="progressName" id="pro1" data-value="0.9" data-color="#1894ff"></div>
-                                <h3>Communication</h3>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="progress-container">
-                                <div class="progressName" id="pro2" data-value="0.75" data-color="#1894ff"></div>
-                                <h3>Work In Team</h3>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="progress-container">
-                                <div class="progressName" id="pro4" data-value="0.85" data-color="#1894ff"></div>
-                                <h3>Speed</h3>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="progress-container">
-                                <div class="progressName" id="pro3" data-value="0.8" data-color="#1894ff"></div>
-                                <h3>creativity</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="technical-skills">
-                    <div class="mrkayo-main-title">
-                        <h2>
-                            Technical Skills
-                            <span class="kayo-line"></span>
-                        </h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="progress-bar-container primary-style">
-                                <span class="timer" data-from="0" data-to="60" data-speed="1100"
-                                      data-refresh-interval="50">0</span>
-                                <div class="progress">
-                                    <div class="progress-bar active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
-                                </div>
-                                <h3>HTML5</h3>
-                            </div>
-                            <div class="progress-bar-container primary-style">
-                                <span class="timer" data-from="0" data-to="60" data-speed="1100"
-                                      data-refresh-interval="50">0</span>
-                                <div class="progress">
-                                    <div class="progress-bar active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
-                                </div>
-                                <h3>JavaScript</h3>
-                            </div>
-                        </div> <!-- end the col -->
-                        <div class="col-sm-6">
-                            <div class="progress-bar-container primary-style">
-                                <span class="timer" data-from="0" data-to="60" data-speed="1100"
-                                      data-refresh-interval="50">0</span>
-                                <div class="progress">
-                                    <div class="progress-bar active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
-                                </div>
-                                <h3>jQuery</h3>
-                            </div>
-                            <div class="progress-bar-container primary-style">
-                                <span class="timer" data-from="0" data-to="60" data-speed="1100"
-                                      data-refresh-interval="50">0</span>
-                                <div class="progress">
-                                    <div class="progress-bar active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
-                                </div>
-                                <h3>CSS3</h3>
-                            </div>
-                        </div> <!-- end the col -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Skills ==================-->
-
-    <!-- Start portfolio
-    ===================================-->
-    <section id="portfolio">
-        <div class="portfolio">
-            <div class="port-box">
-                <div class="container">
-                    <div class="mrkayo-main-title">
-                        <h2>
-                            My Work
-                            <span class="kayo-line"></span>
-                        </h2>
-                    </div>
-                    <div class="text-center">
-                        <ul class="portfolio-sorting list-unstyled text-center kayo-taps">
-                            <li class="active" data-filter="*">All</li>
-                            <li data-filter=".front-end">Front End</li>
-                            <li data-filter=".back-end">Back End</li>
-                            <li data-filter=".graphic-design">Graphic Design</li>
-                        </ul> <!--end portfolio sorting -->
-                    </div>
-                    <div class="portfolio-items">
-                        <div class="row grid">
-                            <div class="col-md-4 col-sm-6 grid-item front-end">
-                                <div class="portfolio-item">
-                                    <div class="port-data">
-                                        <div class="port-data-front-card"><i class="fa fa-codepen"></i></div>
-                                        <div class="port-data-back-card">
-                                            <h4 class="project-name">Project Group3</h4>
-                                            <a href="https://eaglescout40.github.io/Group3Project1/" target="https://eaglescout40.github.io/Group3Project1/" class="port-show-info glyphicon glyphicon-lin glyphicon glyphicon-linkglyphicon glyphicon-linkglyphicon glyphicon-linkglyphicon glyphicon-linkglyphicon glyphicon-link"></a>
-                                            <div class="project-category">
-                                                <h5>Front and Back End with Firebase <i class="fa fa-codepen pull-right"></i></h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="port-image">
-                                        <img src="images/work/01.jpg" class="img-responsive" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 grid-item front-end">
-                                <div class="portfolio-item">
-                                    <div class="port-data">
-                                        <div class="port-data-front-card"><i class="fa fa-code"></i></div>
-                                        <div class="port-data-back-card">
-                                            <h4 class="project-name">Project Hangman Game</h4>
-                                            <a href="https://eaglescout40.github.io/Hangman/" target="https://eaglescout40.github.io/Hangman/" class="port-show-info glyphicon glyphicon-link"></a>
-                                            <div class="project-category">
-                                                <h5>Front End HTML<i class="fa fa-code pull-right"></i></h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="port-image">
-                                        <img src="images/work/02.jpg" class="img-responsive" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 grid-item graphic-design">
-                                <div class="portfolio-item">
-                                    <div class="port-data">
-                                        <div class="port-data-front-card"><i class="fa fa-paint-brush"></i></div>
-                                        <div class="port-data-back-card">
-                                            <h4 class="project-name">Project Psychic Game</h4>
-                                            <a href="https://eaglescout40.github.io/PsychicGameHTML/" target="https://eaglescout40.github.io/PsychicGameHTML/" class="port-show-info glyphicon glyphicon-link"></a>
-                                            <div class="project-category">
-                                                <h5>Front End HTML<i class="fa fa-paint-brush pull-right"></i></h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="port-image">
-                                        <img src="images/work/03.jpg" class="img-responsive" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 grid-item front-end">
-                                <div class="portfolio-item">
-                                    <div class="port-data">
-                                        <div class="port-data-front-card"><i class="fa fa-codepen"></i></div>
-                                        <div class="port-data-back-card">
-                                            <h4 class="project-name">Project Trivia Game</h4>
-                                            <a href="https://eaglescout40.github.io/TriviaGameHW/" target="https://eaglescout40.github.io/TriviaGameHW/" class="port-show-info glyphicon glyphicon-link"></a>
-                                            <div class="project-category">
-                                                <h5>Front End HTML and Javascript<i class="fa fa-codepen pull-right"></i></h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="port-image">
-                                        <img src="images/work/04.jpg" class="img-responsive" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 grid-item back-end">
-                                <div class="portfolio-item">
-                                    <div class="port-data">
-                                        <div class="port-data-front-card"><i class="fa fa-code"></i></div>
-                                        <div class="port-data-back-card">
-                                            <h4 class="project-name">Project Bootstrap</h4>
-                                            <a href="https://github.com/eaglescout40/bootstrap/blob/master/startbootstrap-agency-gh-pages/index.html" target="file:///C:/Users/codyb/Desktop/GTBootcampFiles/bootstrap/startbootstrap-agency-gh-pages/index.html" class="port-show-info glyphicon glyphicon-link"></a>
-                                            <div class="project-category">
-                                                <h5>Front End Bootstrap<i class="fa fa-code pull-right"></i></h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="port-image">
-                                        <img src="images/work/05.jpg" class="img-responsive" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 grid-item graphic-design">
-                                <div class="portfolio-item">
-                                    <div class="port-data">
-                                        <div class="port-data-front-card">
-                                            <div><i class="fa fa-paint-brush"></i></div>
-                                        </div>
-                                        <div class="port-data-back-card">
-                                            <h4 class="project-name">Project Giphy</h4>
-                                            <a href="https://eaglescout40.github.io/GiphyHW/" target="https://eaglescout40.github.io/GiphyHW/" class="port-show-info glyphicon glyphicon-link"></a>
-                                            <div class="project-category">
-                                                <h5>Front End API<i class="fa fa-paint-brush pull-right"></i></h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="port-image">
-                                        <img src="images/work/06.jpg" class="img-responsive" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!--end row -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End portfolio ================-->
-
-    <!-- Start Facts About Me
-    ===================================-->
-    <div class="kayo-facts-about-me bg-img">
-        <div class="overlay">
-            <div class="container mb_-50px">
+        <h3>AWESOME FACTS Section</h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it</li>
+            <li>for edit the <span class="blue-bold">icon</span> and <span class="blue-bold">counter</span> >> <a href="#change_icon_countTo" class="scrollTo">click here</a></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 302;highlight: [304];">
                 <div class="mrkayo-main-title">
                     <h2>
                         Awesome Facts
                         <span class="kayo-line"></span>
                     </h2>
                 </div>
-                <div class="kayo-info-list">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="single-info">
-                                <p class="info-icon">
-                                    <i class="pe-7s-display1"></i>
-                                    <span class="facts-numbers" data-from="20" data-to="5" data-speed="1100"></span>
-                                </p>
-                                <h3> Projects </h3>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="single-info">
-                                <p class="info-icon">
-                                    <i class="pe-7s-alarm"></i>
-                                    <span class="facts-numbers" data-from="70" data-to="550" data-speed="1100"></span>
-                                </p>
-                                <h3> Work Hours </h3>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="single-info">
-                                <p class="info-icon">
-                                    <i class="pe-7s-headphones"></i>
-                                    <span class="facts-numbers" data-from="30" data-to="10" data-speed="1100"></span>
-                                </p>
-                                <h3> Customer Support </h3>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="single-info">
-                                <p class="info-icon">
-                                    <i class="pe-7s-smile"></i>
-                                    <span class="facts-numbers" data-from="100" data-to="7" data-speed="1100"></span>
-                                </p>
-                                <h3> Happy Clients </h3>
-                            </div>
-                        </div>
+            </pre>
+        </div>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 311;highlight: [313,314,316];">
+                <div class="single-info">
+                    <p class="info-icon">
+                        <i class="pe-7s-display1"></i>
+                        <span class="facts-numbers" data-from="20" data-to="500" data-speed="1100"></span>
+                    </p>
+                    <h3> PROJECTS </h3>
+                </div>
+            </pre>
+        </div>
+        <h3>AWESOME FACTS - Edit Background Image - using <span class="blue-bold">SCSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">scss/style.scss</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>compile <span class="blue-bold">style.scss</span> file to <span class="blue-bold">css/style.css</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 345;highlight: [346];">
+                .kayo-facts-about-me {
+                    @include backgroundImg($url: "http://placehold.it/1920x1080", $position: fixed);
+                    .kayo-container {
+                      padding-top: 60px;
+                      padding-bottom: 30px;
+                    }
+            </pre>
+        </div>
+        <h3>AWESOME FACTS - Edit Background Image - using <span class="blue-bold">CSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">css/style.css</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 704;highlight: [705];">
+                .aboutMe .kayo-facts-about-me {
+                  background: url("http://placehold.it/1920x1080") center center no-repeat fixed;
+                  background-size: cover;
+                }
+            </pre>
+        </div>
+        <h3>TESTIMONIALS Section</h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it what you want</li>
+            <li>to change the image you need to change The value of <span class="blue-bold">src</span> attribute to image URL <br> example <span class="blue-bold">src="images/1.png"</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 353;highlight: [355];">
+                <div class="mrkayo-main-title">
+                    <h2>
+                        Testimonials
+                        <span class="kayo-line"></span>
+                    </h2>
+                </div>
+            </pre>
+        </div>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 362;highlight: [365,368,369,374,375,376,377,378];">
+                <!-- Testimonials Slider Box -->
+                <div class="testi-box text-center">
+                    <div class="img-box">
+                        <img src="http://placehold.it/175x175">
+                    </div>
+                    <div class="testi-user-info">
+                        <h3>Saad Tarek</h3>
+                        <h5>Designer at Upwork</h5>
+                    </div>
+                    <div class="testi-desc-box">
+                        <i>“</i>
+                        <p>
+                            Praesent et purus ac libero euismod egestas. Aliquam feugiat luctus eros eget
+                            maecenas
+                            semper pulvinar. tiam in auctor tortor. Aliquam vulputate risus placerat congue
+                            ornare.
+                            Donec semper odio non efficitur congue.
+                        </p>
+                        <i>”</i>
                     </div>
                 </div>
-            </div>
+            </pre>
         </div>
     </div>
-    <!-- End Facts About Me ================-->
-
-    <!-- Start Testimonials -->
-    <!-- <div class="testimonials">
-        <div class="container">
-            <div class="mrkayo-main-title">
-                <h2>
-                    Testimonials
-                    <span class="kayo-line"></span>
-                </h2>
-            </div>
-            <div class="testimonials-slider-container"> -->
-                <!-- Testimonials Slider -->
-                <!-- <div class="testimonials-slider"> -->
-                    <!-- Testimonials Slider Box -->
-                    <!-- <div class="testi-box text-center">
-                        <div class="img-box">
-                            <img src="images/users/01.jpg" alt="">
-                        </div>
-                        <div class="testi-user-info">
-                            <h3>McPatty Langston</h3>
-                            <h5>Author and CEO</h5>
-                        </div>
-                        <div class="testi-desc-box">
-                            <i>“</i>
-                            <p>
-                                Michael did a great job of ghostwriting and editing my book "Magically McOrganized." He was easy 
-                                to work with and seemed to have an innate understanding of what I wanted to say and how I wanted to say it."
-                            </p>
-                            <i>”</i>
-                        </div>
-                    </div> -->
-                    <!-- Testimonials Slider Box -->
-                    <!-- <div class="testi-box text-center">
-                        <div class="img-box">
-                            <img src="images/users/02.jpg" alt="">
-                        </div>
-                        <div class="testi-user-info">
-                            <h3>Cathryn Marshall</h3>
-                            <h5>Author, Speaker, Fitness Expert</h5>
-                        </div>
-                        <div class="testi-desc-box">
-                            <i>“</i>
-                            <p>
-                                Deltoids upright row leg weightlifting barbell jacks legs, equipment physical equipment fit lunge. Muscles burpees pull deltoids bench kettlebell calves, cool down walkout body fat percentage deadlift jacks dumbbell cardio. BMI calves running burpees body composition weightlifting chest fly extension.
-                            </p>
-                            <i>”</i>
-                        </div>
-                    </div> -->
-                    <!-- Testimonials Slider Box -->
-                    <!-- <div class="testi-box text-center">
-                        <div class="img-box">
-                            <img src="images/users/03.jpg" alt="">
-                        </div>
-                        <div class="testi-user-info">
-                            <h3>Bill Fox</h3>
-                            <h5>Designer at Amanidax</h5>
-                        </div>
-                        <div class="testi-desc-box">
-                            <i>“</i>
-                            <p>
-                                Praesent et purus ac libero euismod egestas. Aliquam feugiat luctus eros eget
-                                maecenas
-                                semper pulvinar. tiam in auctor tortor. Aliquam vulputate risus placerat congue
-                                ornare.
-                                Donec semper odio non efficitur congue.
-                            </p>
-                            <i>”</i>
-                        </div>
-                    </div> -->
-                    <!-- Testimonials Slider Box -->
-                    <!-- <div class="testi-box text-center">
-                        <div class="img-box">
-                            <img src="images/users/04.jpg" alt="">
-                        </div>
-                        <div class="testi-user-info">
-                            <h3>Joey Higgins</h3>
-                            <h5>CEO Higgins&Geox</h5>
-                        </div>
-                        <div class="testi-desc-box">
-                            <i>“</i>
-                            <p>
-                                Praesent et purus ac libero euismod egestas. Aliquam feugiat luctus eros eget
-                                maecenas
-                                semper pulvinar. tiam in auctor tortor. Aliquam vulputate risus placerat congue
-                                ornare.
-                                Donec semper odio non efficitur congue.
-                            </p>
-                            <i>”</i>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- Silder Paging -->
-                <!-- <ul class="paging-container list-unstyled text-center list-inline">
-                    <li class="testimonials-arrows" id="testimonial-prevArrow">
-                        <div class="testimonials-client-page"></div>
-                        <i class="pe-7s-angle-left"></i>
-                    </li>
-                    <li id="testimonial-paging"></li>
-                    <li class="testimonials-arrows" id="testimonial-nextArrow">
-                        <div class="testimonials-client-page"></div>
-                        <i class="pe-7s-angle-right"></i>
-                    </li>
-                </ul>
-            </div>
-        </div> 
-</div> --> 
-    <!-- End Testimonials ================-->
-
-    <!-- Start Blog
-    ===================================-->
-    <section id="blog">
-        <div class="blog">
-            <div class="port-box">
-                <div class="container">
-                    <div class="mrkayo-main-title">
-                        <h2>
-                            Recent Posts
-                            <span class="kayo-line"></span>
-                        </h2>
-                    </div>
-                    <div class="posts">
-                        <div class="row posts-grid">
-                            <div class="col-md-6 col-sm-6 post-grid-item">
-                                <div>
-                                    <article class="normal-post">
-                                        <figure class="entry-header">
-                                            <div class="post-image">
-                                                <img src="images/blog/01.jpg" class="img-responsive" alt="">
-                                            </div>
-                                            <ul class="post-category list-unstyled">
-                                                <li><a href="#">Creative</a></li>
-                                                <li><a href="#">Front end</a></li>
-                                                <li><a href="#">web design</a></li>
-                                            </ul>
-                                            <ul class="post-share list-unstyled">
-                                                <li class="open-post-share">
-                                                    <span><i class="fa fa-share-alt"></i></span>
-                                                    <ul class="post-share-links list-unstyled">
-                                                        <!-- <li>
-                                                            <a href="https://www.facebook.com/profile.php?id=1643123534" class="facebook-bg-hover">
-                                                                <i class="fa fa-facebook"></i>
-                                                            </a>
-                                                        </li> -->
-                                                        <!-- <li>
-                                                            <a href="https://twitter.com/Codybear40" class="twitter-bg-hover">
-                                                                <i class="fa fa-twitter"></i>
-                                                            </a>
-                                                        </li>-->
-                                                        <li>
-                                                            <a href="https://www.linkedin.com/in/michael-adams-1b918152" class="linkedIn-bg-hover">
-                                                                <i class="fa fa-linkedin"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </figure>
-                                        <div class="entry-content">
-                                            <div class="entry-post-info">
-                                                <h4><a href="#">Sunset and a Sweet Tea</a></h4>
-                                                <p>Posted on August 4th 2019</p>
-                                            </div>
-                                            <div class="entry-expert">
-                                                <p>
-                                                        Jackie walked into the restaurant, frazzled from the eight-hour drive.  She wanted to get out to the patio and order. Nothing else, just order.  The sun was starting to set over the Pacific. As she watched the waves crash against the shore with their rhythmic timing, and she started to let it all wash over her. She was glad to be here. Away from him. Done with men. 
-                                                        As she ordered her food and sweet tea, careful to make sure the tea was like home (sweet with actual sugar added while the tea was hot), she was startled to see what she thought she saw. 
-                                                        It couldn’t be, but unless she was sleeping, it was. Her old high school flame was coming up out of the surf looking like he did back then. She had fallen for him once. Once upon a time that was too far back to really remember. Surely, he wouldn’t see her. If he did, he shouldn’t recognize her because she had changed too much. 
-                                                        She watched him walk up to the bar to order. While he was standing there, their eyes met. 
-                                                        He got his drink and walked over to her table. “Hello. I’m…” 
-                                                        “D-Derek.” She stammered.  I know.   
-                                                        “Have we met before? I feel like I know you.” Derek’s eyes opened wide as recognition suddenly hit him. “Jackie?! Is that you?” 
-                                                        “Yes, Derek. It is me. It has been a while, huh?” 
-                                                        “I’ll say. Can I join you?” 
-                                                        “Sure.” Jackie was feeling more frazzled than ever now. More confused than she had ever been. “What am I thinking?!? I just left a guy because he broke my heart. Tell him to Go Away!” As the evening wore on and her defenses wore down, they drank sweet tea and talked about old times. The sun was about to set, and he asked her to go for a walk, so they started walking on the beach. All her old, buried feelings came crashing down on her like the waves crashing onto the rocks out in the surf. 
-                                                        “This is too good to be happening to me.  What have I done to deserve a second chance with him? I must be dreaming.” 
-                                                        As she walked in the surf holding her shoes in one hand and her tea in the other, he stopped. “Do you want to give this a try? Us, I mean?” 
-                                                        Tears went down her cheek and his hand gently wiped them away. “Why are you crying?” 
-                                                        “This is so sudden. So…out of place. I don’t think this is right. For me, I mean.” “What seems to be wrong about it? Are you married?? 
-                                                        “No.” 
-                                                        “A nun?” 
-                                                        “No.” 
-                                                        “Ok. You’ve stumped me.  Why is it wrong?” 
-                                                        “Well, for one, I just got out of a relationship, and for two, I shouldn’t get involved with you again. You broke my heart once, as well!” 
-                                                        He pulled her to himself and gave her a kiss. “I won’t break your heart again. I promise.” 
-                                                        The sun was dropping below the horizon and the sky was deep blues and yellows and oranges and purples. In short, it was perfect. He was purrfect. 
-                                                        She could feel his tongue licking her cheek over and over. “Stop! That’s rough!” She woke up with a start, heart pounding and head racing. Wow! What a dream!  
-                                                        Her cat continued to purr quietly, looking up at her, ready to be fed. 
-                                                        
-                                                </p>
-                                                <div class="post-readMore">
-                                                    <a href="#" class="pull-left read-more-link">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                                    <span class="pull-right"><a href="#">1 COMMENT</a></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="entry-footer">
-                                            <ul class="entry-tags list-unstyled list-inline">
-                                                <li><a href="#">CSS</a></li>
-                                                <li><a href="#">HTML</a></li>
-                                                <li><a href="#">WORDPRESS</a></li>
-                                            </ul>
-                                        </div>
-                                    </article>
+    <div class="dash_panel" id="portfolio">
+        <h1 class="section-title">portfolio Section</h1>
+        <h3>Edit Section Intro Background Image - using <span class="blue-bold">SCSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">scss/style.scss</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>compile <span class="blue-bold">style.scss</span> file to <span class="blue-bold">css/style.css</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 582;highlight: [584];">
+                .portfolio {
+                  .portfolio-intro-section {
+                    @include backgroundImg($url: "http://placehold.it/1920x1080", $position: fixed);
+                    .kayo-container {
+                      padding-top: 60px;
+                      padding-bottom: 60px;
+                    }
+                  }
+            </pre>
+        </div>
+        <hr>
+        <h3>Edit Section Intro Background Image - using <span class="blue-bold">CSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">css/style.css</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 975;highlight: [978];">
+                /* Start Portfolio
+                ================================= */
+                .portfolio .portfolio-intro-section {
+                  background: url("http://placehold.it/1920x1080") center center no-repeat fixed;
+                  background-size: cover;
+                }
+            </pre>
+        </div>
+        <hr>
+        <h3>Change The Filter</h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it what you want</li>
+            <li>to create the filter you need to create tje category as value of <span class="blue-bold">data-filter</span> attribute and don't forget to put <span class="blue-bold">.</span> before the category name like in the preview <br> example <span class="blue-bold">data-filter=".design"</span>
+                <br>
+                then add the category to the <span class="blue-bold">grid-item</span> as class value <span class="blue-bold">WITHOUT . </span> in the first of the word like the preview
+            </li>
+            <li>to change the link you need to change The value of <span class="blue-bold">href</span> attribute to your link <br> example <span class="blue-bold">href="http://example.com"</span></li>
+            <li>to change the image you need to change The value of <span class="blue-bold">src</span> attribute to image URL <br> example <span class="blue-bold">src="images/1.png"</span></li>
+            <li>to change the icon <a href="#change_icon_countTo" class="scrollTo">click here</a></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 489;highlight: [491];">
+                <ul class="portfolio-sorting list-unstyled text-center kayo-taps">
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".front-end">Front End</li>
+                    <li data-filter=".back-end">Back End</li>
+                    <li data-filter=".graphic-design">Graphic Design</li>
+                </ul> <!--end portfolio sorting -->
+            </pre>
+        </div>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 498;highlight: [498,501,503,504,506,511];">
+                <div class="col-lg-4 col-md-6 col-sm-6 grid-item front-end">
+                    <div class="portfolio-item">
+                        <div class="port-data">
+                            <div class="port-data-front-card"><i class="fa fa-codepen"></i></div>
+                            <div class="port-data-back-card">
+                                <h4 class="project-name">Project Name</h4>
+                                <a href="#" target="_blank" class="port-show-info glyphicon glyphicon-lin glyphicon glyphicon-linkglyphicon glyphicon-linkglyphicon glyphicon-linkglyphicon glyphicon-linkglyphicon glyphicon-link"></a>
+                                <div class="project-category">
+                                    <h5>Front End <i class="fa fa-codepen pull-right"></i></h5>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-6 post-grid-item">
-                                <div>
-                                    <article class="normal-post">
-                                        <figure class="entry-header">
-                                            <ul class="post-share list-unstyled">
-                                                <li class="open-post-share">
-                                                    <span><i class="fa fa-share-alt"></i></span>
-                                                    <ul class="post-share-links list-unstyled">
-                                                        <!-- <li>
-                                                            <a href="https://www.facebook.com/profile.php?id=1643123534" class="facebook-bg-hover">
-                                                                <i class="fa fa-facebook"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#" class="twitter-bg-hover">
-                                                                <i class="fa fa-twitter"></i>
-                                                            </a>
-                                                        </li> -->
-                                                        <li>
-                                                            <a href="https://www.linkedin.com/in/michael-adams-1b918152" class="linkedin-bg-hover">
-                                                                <i class="fa fa-linkedin"></i>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </figure>
-                                        <div class="entry-content">
-                                            <div class="entry-post-info">
-                                                <h4><a href="#">Normal Post Style</a></h4>
-                                                <p>
-                                                    Posted 3 Nov
-                                                </p>
-                                            </div>
-                                            <div class="entry-expert">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolorum ea facilis non repellendus velit voluptas voluptates? Accusantium at doloribus eum iste iusto, nam rem repudiandae voluptates. Inventore.
-                                                </p>
-                                                <div class="post-readMore">
-                                                    <a href="#" class="pull-left read-more-link">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                                    <span class="pull-right"><a href="#">1 COMMENT</a></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="entry-footer">
-                                            <ul class="entry-tags list-unstyled list-inline">
-                                                <li><a href="#">CSS</a></li>
-                                                <li><a href="#">HTML</a></li>
-                                                <li><a href="#">WORDPRESS</a></li>
-                                            </ul>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 post-grid-item">
-                                <div>
-                                    <article class="normal-post">
-                                        <figure class="entry-header">
-                                            <div class="post-image">
-                                                <img src="images/blog/02.jpg" class="img-responsive" alt="">
-                                            </div>
-                                            <ul class="post-category list-unstyled">
-                                                <li><a href="#">creative</a></li>
-                                                <li><a href="#">Front end</a></li>
-                                                <li><a href="#">web design</a></li>
-                                            </ul>
-                                            <ul class="post-share list-unstyled">
-                                                <li class="open-post-share">
-                                                    <span><i class="fa fa-share-alt"></i></span>
-                                                    <ul class="post-share-links list-unstyled">
-                                                        <!-- <li>
-                                                            <a href="https://www.facebook.com/profile.php?id=1643123534" class="facebook-bg-hover">
-                                                                <i class="fa fa-facebook"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li> -->
-                                                            <a href="https://www.linkedin.com/in/michael-adams-1b918152" class="linkedin-bg-hover">
-                                                                <i class="fa fa-linkedin"></i>
-                                                            </a>
-                                                        </li>
-                                                        <!-- <li>
-                                                            <a href="#" class="google-plus-bg-hover">
-                                                                <i class="fa fa-google-plus"></i>
-                                                            </a>
-                                                        </li> -->
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </figure>
-                                        <div class="entry-content">
-                                            <div class="entry-post-info">
-                                                <h4><a href="#">Normal Post Style</a></h4>
-                                                <p>Posted 12 Oct</p>
-                                            </div>
-                                            <div class="entry-expert">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolorum ea facilis non repellendus velit voluptas voluptates? Accusantium at doloribus eum iste iusto, nam rem repudiandae voluptates. Inventore.
-                                                </p>
-                                                <div class="post-readMore">
-                                                    <a href="#" class="pull-left read-more-link">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                                    <span class="pull-right"><a href="#">1 COMMENT</a></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="entry-footer">
-                                            <ul class="entry-tags list-unstyled list-inline">
-                                                <li><a href="#">CSS</a></li>
-                                                <li><a href="#">HTML</a></li>
-                                                <li><a href="#">WORDPRESS</a></li>
-                                            </ul>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 post-grid-item">
-                                <div>
-                                    <article class="normal-post">
-                                        <figure class="entry-header">
-                                            <ul class="post-share list-unstyled">
-                                                <li class="open-post-share">
-                                                    <span><i class="fa fa-share-alt"></i></span>
-                                                    <ul class="post-share-links list-unstyled">
-                                                        <!-- <li>
-                                                            <a href="https://www.facebook.com/profile.php?id=1643123534" class="facebook-bg-hover">
-                                                                <i class="fa fa-facebook"></i>
-                                                            </a>
-                                                        </li>
-                                                        <li> -->
-                                                            <a href="https://www.linkedin.com/in/michael-adams-1b918152" class="linkedin-bg-hover">
-                                                                <i class="fa fa-linkedin"></i>
-                                                            </a>
-                                                        </li>
-                                                        <!-- <li>
-                                                            <a href="#" class="twitter-bg-hover">
-                                                                <i class="fa fa-twitter"></i>
-                                                            </a>
-                                                        </li> -->
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </figure>
-                                        <div class="entry-content">
-                                            <div class="entry-post-info">
-                                                <h4><a href="#">Normal Post Style</a></h4>
-                                                <p>
-                                                    Posted 18 Aug
-                                                </p>
-                                            </div>
-                                            <div class="entry-expert">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolorum ea facilis non repellendus velit voluptas voluptates? Accusantium at doloribus eum iste iusto, nam rem repudiandae voluptates. Inventore.
-                                                </p>
-                                                <div class="post-readMore">
-                                                    <a href="#" class="pull-left read-more-link">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                                    <span class="pull-right"><a href="#">1 COMMENT</a></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="entry-footer">
-                                            <ul class="entry-tags list-unstyled list-inline">
-                                                <li><a href="#">CSS</a></li>
-                                                <li><a href="#">HTML</a></li>
-                                                <li><a href="#">WORDPRESS</a></li>
-                                            </ul>
-                                        </div>
-                                    </article>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="port-image">
+                            <img src="http://placehold.it/600x400" class="img-responsive">
                         </div>
                     </div>
                 </div>
-            </div>
+            </pre>
         </div>
-    </section>
-    <!-- End Blog ================-->
+    </div>
+    <div class="dash_panel" id="resume">
+        <h1 class="section-title">resume Section</h1>
+        <h3>Edit Section Intro Background Image - using <span class="blue-bold">SCSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">scss/style.scss</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>compile <span class="blue-bold">style.scss</span> file to <span class="blue-bold">css/style.css</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 735;highlight: [736];">
+              .resume-intro-section {
+                @include backgroundImg($url: "http://placehold.it/1920x1080", $position: fixed);
+                .kayo-container {
+                  padding-top: 60px;
+                  padding-bottom: 60px;
+                }
+              }
+            </pre>
+        </div>
+        <hr>
+        <h3>Edit Section Intro Background Image - using <span class="blue-bold">CSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">css/style.css</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 1168;highlight: [1171];">
+                /* Start Resume
+                ================================= */
+                .resume .resume-intro-section {
+                  background: url("http://placehold.it/1920x1080") center center no-repeat fixed;
+                  background-size: cover;
+                }
+            </pre>
+        </div>
+        <hr>
+        <h3>Skills Section - Edit Background Image - using <span class="blue-bold">SCSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">scss/style.scss</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>compile <span class="blue-bold">style.scss</span> file to <span class="blue-bold">css/style.css</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 851;highlight: [852];">
+                .kayo-skills {
+                    @include backgroundImg($url: "http://placehold.it/1920x1080", $position: fixed);
+                    .technical-skills {
+            </pre>
+        </div>
+        <h3>Skills Section - Edit Background Image - using <span class="blue-bold">CSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">css/style.css</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 1307;highlight: [1308];">
+                .resume .kayo-skills {
+                  background: url("http://placehold.it/1920x1080") center center no-repeat fixed;
+                  background-size: cover;
+                }
+            </pre>
+        </div>
+        <hr>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 691;highlight: [693, 697, 698,702,703,704,705];">
+                <div class="timeline-box">
+                    <div class="timeline-date">
+                        2007 - 2016
+                    </div>
+                    <div class="timeline-info">
+                        <div class="timeline-info-header">
+                            <h3>Facebook</h3>
+                            <p>UX/UI Designer</p>
+                        </div>
+                        <div class="timeline-info-details">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut commodi
+                                earum eligendi ipsum, laborum maiores mollitia, optio quam quis rerum
+                                totam voluptas voluptates. Excepturi fugiat nobis reprehenderit sequi
+                                veniam!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </pre>
+        </div>
+        <p>
+            to change the link you need to change The value of <span class="blue-bold">href</span> attribute to your link <br> example <span class="blue-bold">href="http://example.com"</span>
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 733;highlight: [734];">
+                <div class="take-my-resume">
+                    <a href="#" class="kayo-btn-1"><span class="glyphicon glyphicon-cloud-download"></span> Take My Resume</a>
+                </div>
+            </pre>
+        </div>
+        <p>
+            to change the <span class="blue-bold">progress bar</span> value you need to edit the value for <span class="blue-bold">data-value</span>
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 749;highlight: [750, 751];">
+                <div class="progress-container">
+                    <div class="progressName" id="pro1" data-value="0.8" data-color="#1894ff"></div>
+                    <h3>Communication</h3>
+                </div>
+            </pre>
+        </div>
+        <p>
+            to change the <span class="blue-bold">counter & progress bar</span> value you need to edit the value for <span class="blue-bold">data-from</span> this is the <span class="blue-bold">start value</span> and also the value <span class="blue-bold">data-to</span> and this is the end value
+            <br><br>
+            NOTE: the value of progress bar dependence on the counter value
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 783;highlight: [784, 786, 788];">
+                <div class="progress-bar-container primary-style">
+                    <span class="timer" data-from="0" data-to="95" data-speed="1100" data-refresh-interval="50"></span>
+                    <div class="progress">
+                        <div class="progress-bar active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                    </div>
+                    <h3>HTML5</h3>
+                </div>
+            </pre>
+        </div>
+    </div>
+    <div class="dash_panel" id="blog">
+        <h1 class="section-title">contactMe Section</h1>
+        <h3>Edit Section Intro Background Image - using <span class="blue-bold">SCSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">scss/style.scss</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>compile <span class="blue-bold">style.scss</span> file to <span class="blue-bold">css/style.css</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css;">
+                /* 8. Blog
+                ================================= */
+                .blog {
+                  .kayo-intro-section {
+                    @include backgroundImg($url: "http://placehold.it/1980x1080", $y: bottom, $position: fixed);
+                  }
+                }
+            </pre>
+        </div>
+        <hr>
+        <h3>Edit Section Intro Background Image - using <span class="blue-bold">CSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">css/style.css</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; ">
+                /* 8. Blog
+                ================================= */
+                .blog .kayo-intro-section {
+                  background: url("http://placehold.it/1980x1080") center bottom no-repeat fixed;
+                  background-size: cover;
+                }
+            </pre>
+        </div>
+        <hr>
+        <h3> Post Edit </h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it</li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html;">
+                <article class="normal-post">
+                    <figure class="entry-header">
+                        <div class="post-image">
+                            <img src="http://placehold.it/800x550" class="img-responsive" alt="">
+                        </div>
+                        <ul class="post-category list-unstyled">
+                            <li><a href="#">creative</a></li>
+                            <li><a href="#">Front end</a></li>
+                            <li><a href="#">web design</a></li>
+                        </ul>
+                        <ul class="post-share list-unstyled">
+                            <li class="open-post-share">
+                                <span><i class="fa fa-share-alt"></i></span>
+                                <ul class="post-share-links list-unstyled">
+                                    <li>
+                                        <a href="#" class="facebook-bg-hover">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="twitter-bg-hover">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="google-plus-bg-hover">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </figure>
+                    <div class="entry-content">
+                        <div class="entry-post-info">
+                            <h4><a href="#">Normal Post Style</a></h4>
+                            <p>Posted 12 Oct</p>
+                        </div>
+                        <div class="entry-expert">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolorum ea facilis non repellendus velit voluptas voluptates? Accusantium at doloribus eum iste iusto, nam rem repudiandae voluptates. Inventore.
+                            </p>
+                            <div class="post-readMore">
+                                <a href="#" class="pull-left read-more-link">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                <span class="pull-right"><a href="#">1 COMMENT</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="entry-footer">
+                        <ul class="entry-tags list-unstyled list-inline">
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">WORDPRESS</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </pre>
+        </div>
+    </div>
+    <div class="dash_panel" id="contactMe">
+        <h1 class="section-title">contactMe Section</h1>
+        <h3>Edit Section Intro Background Image - using <span class="blue-bold">SCSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">scss/style.scss</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>compile <span class="blue-bold">style.scss</span> file to <span class="blue-bold">css/style.css</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 942;highlight: [944];">
+                .contact {
+                  .contact-intro-section {
+                    @include backgroundImg($url: "http://placehold.it/1920x1080", $y: bottom, $position: fixed);
+                    .kayo-container {
+                      padding-top: 60px;
+                      padding-bottom: 60px;
+                    }
+                  }
+            </pre>
+        </div>
+        <hr>
+        <h3>Edit Section Intro Background Image - using <span class="blue-bold">CSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">css/style.css</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 1400;highlight: [1403];">
+                /* Start Contact
+                ================================= */
+                .contact .contact-intro-section {
+                  background: url("http://placehold.it/1920x1080") center bottom no-repeat fixed;
+                  background-size: cover;
+                }
+            </pre>
+        </div>
 
-    <!-- Start Contact Ways
-    ===================================-->
-    <div class="contact-ways">
-        <div class="container mb_-30px">
-            <div class="mrkayo-main-title">
-                <h2>
-                    Get In Touch
-                    <span class="kayo-line"></span>
-                </h2>
-            </div>
-            <div class="row">
+        <hr>
+        <h3>Contact Form - Edit Background Image - using <span class="blue-bold">SCSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">scss/style.scss</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>compile <span class="blue-bold">style.scss</span> file to <span class="blue-bold">css/style.css</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 1006;highlight: [1007];">
+              .contact-form {
+                @include backgroundImg($url: "http://placehold.it/1920x1080", $y: bottom, $position: fixed);
+                .kayo-container {
+                  padding-bottom: 60px;
+                }
+              }
+            </pre>
+        </div>
+        <h3>Contact Form - Edit Background Image - using <span class="blue-bold">CSS</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">css/style.css</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>Change <span class="blue-bold">http://placehold.it/1920x1080</span> to your image URL (RECOMMENDED 1920 x 1080) <span class="blue-bold">Save File</span></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: css; first-line: 1476;highlight: [1477];">
+                .contact .contact-form {
+                  background: url("http://placehold.it/1920x1080") center bottom no-repeat fixed;
+                  background-size: cover;
+                }
+            </pre>
+        </div>
+        <hr>
+        <h3> contact information </h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview and edit it</li>
+            <li>to change the icon <a href="#change_icon_countTo" class="scrollTo">click here</a></li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 852;highlight: [862,856];">
                 <div class="col-sm-4">
                     <div class="kayo-icon-list-box">
                         <div class="kayo-icon-box-container">
@@ -991,401 +1095,102 @@
                         <div class="kayo-list-info">
                             <h4>Location</h4>
                             <p>
-                                Hoschton, GA
+                                Los Angeles, USA
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="kayo-icon-list-box">
-                        <div class="kayo-icon-box-container">
-                            <div class="kayo-icon-box">
-                                <span class="glyphicon glyphicon-phone kayo-icon"></span>
-                            </div>
-                        </div>
-                        <div class="kayo-list-info">
-                            <h4>Phone</h4>
-                            <p>
-                                404-906-0697
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="kayo-icon-list-box">
-                        <div class="kayo-icon-box-container">
-                            <div class="kayo-icon-box">
-                                <span class="fa fa-envelope kayo-icon"></span>
-                            </div>
-                        </div>
-                        <div class="kayo-list-info">
-                            <h4>Email</h4>
-                            <p>
-                                Michael.AdamsSr40@Gmail.Com
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </pre>
         </div>
     </div>
-    <!-- End Contact Ways ================-->
+    <div class="dash_panel" id="other">
+        <h1 class="section-title">Other Changes</h1>
+        <h3 id="change_icon_countTo">Edit <span class="blue-bold">Icons</span> AND  <span class="blue-bold">Counter</span></h3>
+        <ol>
+            <li>Open <span class="blue-bold">index.html</span> in the code editor</li>
+            <li>go to the code in the preview</li>
+            <li>to change the <span class="blue-bold">Icon</span> you need change the class for the other icon's class
+                <br> Example change <span class="blue-bold">class="pe-7s-display1"</span> to <span class="blue-bold">class="fa fa-edit"</span>
+                you can search for your icon here
+                <br>
+                <br>
+                <ul>
+                    <li><a href="http://fontawesome.io/icons/" target="_blank">FontAwesome</a></li>
+                    <li><a href="http://themes-pixeden.com/font-demos/7-stroke/" target="_blank">pixeden</a></li>
+                    <li><a href="https://getbootstrap.com/docs/3.3/components/#glyphicons-glyphs" target="_blank">Bootstrap</a></li>
+                </ul>
+            </li>
+            <li>
+                to change the <span class="blue-bold">counter</span> you need to edit the value for <span class="blue-bold">data-from</span> this is the <span class="blue-bold">start value</span> and also the value <span class="blue-bold">data-to</span> and this is the end value
+            </li>
+            <li>refresh your browser</li>
+            <li>done</li>
+        </ol>
+        <div class="pre-container">
+            <pre class="brush: html; first-line: 311;highlight: [313,314,316];">
+                <div class="single-info">
+                    <p class="info-icon">
+                        <i class="pe-7s-display1"></i>
+                        <span class="facts-numbers" data-from="20" data-to="500" data-speed="1100"></span>
+                    </p>
+                    <h3> PROJECTS </h3>
+                </div>
+            </pre>
+        </div>
 
-    <!-- Start Contact From
-    ===================================-->
-    <div class="contact-form bg-img" id="contact">
-        <div class="overlay">
-            <div class="container">
-                <div class="mrkayo-main-title">
-                    <h2>
-                        Send Me a Message
-                        <span class="kayo-line"></span>
-                    </h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1">
-                        <form class="kayo-form" action="php/sendMessage.php" method="post" id="contact_form">
-                            <div class="input-row">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Message About .." name="messageAbout" data-messageAboutValidation>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Your Full Name" name="full_name" data-nameValidation>
-                                </div>
-                            </div>
-                            <div class="input-row">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="E-mail" name="email" data-emailValidation>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="phone" name="phone" data-phoneValidation>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Your Message .." name="message" data-messageValidation></textarea>
-                            </div>
-                            <div>
-                                <button class="btn kayo-btn-1 btn-block btn-rgba" type="submit" name="submit_contact_form">
-                                    <i class="fa fa-send-o"></i> Send Your Message
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+    </div>
+
+    <div class="dash_panel" id="contactForm">
+        <h1 class="section-title">Contact Form</h1>
+        <p>
+          in <span class="blue-bold">php/sendEmail.class.php</span> you need to edit
+            The Values that name <span class="blue-bold">"EDIT HERE"</span> with your values
+            <br><br>
+            i'm using <span class="blue-bold">phpmailler</span> to the full documentation from <a href="https://github.com/PHPMailer/PHPMailer">here</a>
+        </p>
+        <div class="pre-container">
+            <pre class="brush: html;">
+              class sendEmail{
+              public $mail,$sendFrom,$sendFromEmail,$sendToEmail,$sendToName,$subject,$Body;
+              public function __construct() {
+                  $this->mail = new PHPMailer;
+                  $this->mail->isSMTP();                                      // Set mailer to use SMTP
+                  $this->mail->Host = 'EDIT HERE';                      // Specify main and backup SMTP servers
+                  $this->mail->SMTPAuth = true;                               // Enable SMTP authentication
+                  $this->mail->Username = 'EDIT HERE';                 // SMTP username
+                  $this->mail->Password = 'EDIT HERE';                 // SMTP password
+                  $this->mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+                  $this->mail->Port = EDIT_HERE;
+                  $this->mail->IsHTML(true);
+              }
+              public function send(){
+                  $this->mail->setFrom('EDIT HERE', $this->sendFrom);
+                  $this->mail->addAddress('EDIT HERE', 'EDIT HERE');     // Add a recipient
+                  $this->mail->Subject = $this->subject;
+                  $this->mail->Body    = $this->Body;
+                  if(!$this->mail->send()) {
+                      return false;
+                  } else {
+                      return true;
+                  }
+              }
+            }
+
+            </pre>
         </div>
     </div>
-    <!-- Start Contact From -->
-
-    <!-- Start Client Logo
-    ===================================-->
-    <!--<div class="my-clients-logo small-section">
-        <div class="container">
-            <div class="sakura-demo2-clients-slider">
-                <div class="client-logo">
-                    <a href="#" target="_blank">
-                        <img src="images/clients-logo/logo-1.png" alt="">
-                    </a>
-                </div>
-                <div class="client-logo">
-                    <a href="#" target="_blank">
-                        <img src="images/clients-logo/logo-2.png" alt="">
-                    </a>
-                </div>
-                <div class="client-logo">
-                    <a href="#" target="_blank">
-                        <img src="images/clients-logo/logo-3.png" alt="">
-                    </a>
-                </div>
-                <div class="client-logo">
-                    <a href="#" target="_blank">
-                        <img src="images/clients-logo/logo-4.png" alt="">
-                    </a>
-                </div>
-                <div class="client-logo">
-                    <a href="#" target="_blank">
-                        <img src="images/clients-logo/logo-5.png" alt="">
-                    </a>
-                </div>
-                <div class="client-logo">
-                    <a href="#" target="_blank">
-                        <img src="images/clients-logo/logo-6.png" alt="">
-                    </a>
-                </div>
-                <div class="client-logo">
-                    <a href="#" target="_blank">
-                        <img src="images/clients-logo/logo-7.png" alt="">
-                    </a>
-                </div>
-                <div class="client-logo">
-                    <a href="#" target="_blank">
-                        <img src="images/clients-logo/logo-8.png" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- End Client Logo ==================-->
-
-    <!-- Start Map
-    ===================================-->
-    <div id="map"></div>
-    <!-- End Map ================-->
-
-</main>
-
-<!-- Footer
-========================================-->
-<footer class="apps-footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="apps-short-info">
-                <a href="#">
-                    <img alt="" src="images/iconB.png">
-                </a>
-            </div>
-            <ul class="list-inline list-unstyled footer-social-links">
-                <!-- <li><a href="https://www.facebook.com/profile.php?id=1643123534"><i class="fa fa-facebook"></i></a></li> -->
-                <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
-                <li><a href="https://www.linkedin.com/in/michael-adams-1b918152"><i class="fa fa-linkedin"></i></a></li>
-                <!--<li><a href="#"><i class="fa fa-behance"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-            </ul>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="container">
-            <p>All Rights Reserved © 2019 <a href="https://eaglescout40.github.io/UpdatedPortfolio/">Mradams</a></p>
-        </div>
-    </div>
-</footer>
-
-<!-- Start ScrollToTop
-===================================-->
-<div class="scrollToTop"><i class="fa fa-angle-up"></i></div>
-
-
-<!-- Start Loading
-===================================-->
-<div class="loading">
-    <div class="sk-folding-cube">
-        <div class="sk-cube1 sk-cube"></div>
-        <div class="sk-cube2 sk-cube"></div>
-        <div class="sk-cube4 sk-cube"></div>
-        <div class="sk-cube3 sk-cube"></div>
-    </div>
+    
 </div>
-<!-- End Loading ==================-->
-
 <!-- start the script -->
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.countTo.min.js"></script>
-<script src="js/jquery.nicescroll.min.js"></script>
-<script src="js/typed.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/progressbar.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
 <script src="js/plugins.js"></script>
-<script src="js/ajax.js"></script>
 <!-- end the script -->
 
-<script>
-    function initMap() {
-        // Styles a map in night mode.
-        var map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 34.15, lng: -83.7680},
-            zoom: 11,
-            styles: [
-                {
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#212121"
-                        }
-                    ]
-                },
-                {
-                    "elementType": "labels.icon",
-                    "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                    ]
-                },
-                {
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                        {
-                            "color": "#757575"
-                        }
-                    ]
-                },
-                {
-                    "elementType": "labels.text.stroke",
-                    "stylers": [
-                        {
-                            "color": "#212121"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "administrative",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#757575"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "administrative.country",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                        {
-                            "color": "#9e9e9e"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "administrative.land_parcel",
-                    "stylers": [
-                        {
-                            "visibility": "off"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "administrative.locality",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                        {
-                            "color": "#bdbdbd"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "poi",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                        {
-                            "color": "#757575"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "poi.park",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#181818"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "poi.park",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                        {
-                            "color": "#616161"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "poi.park",
-                    "elementType": "labels.text.stroke",
-                    "stylers": [
-                        {
-                            "color": "#1b1b1b"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road",
-                    "elementType": "geometry.fill",
-                    "stylers": [
-                        {
-                            "color": "#2c2c2c"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                        {
-                            "color": "#8a8a8a"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.arterial",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#373737"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.highway",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#3c3c3c"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.highway.controlled_access",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#4e4e4e"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "road.local",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                        {
-                            "color": "#616161"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "transit",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                        {
-                            "color": "#757575"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "water",
-                    "elementType": "geometry",
-                    "stylers": [
-                        {
-                            "color": "#000000"
-                        }
-                    ]
-                },
-                {
-                    "featureType": "water",
-                    "elementType": "labels.text.fill",
-                    "stylers": [
-                        {
-                            "color": "#3d3d3d"
-                        }
-                    ]
-                }
-            ]
-        });
-    }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMaN8SDH_bgvk116IWNP-j8h9Pw834g-c&callback=initMap"></script>
+<script src="syntax-highlighter/scripts/shCore.js"></script>
+<script src="syntax-highlighter/scripts/shBrushXml.js"></script>
+<script src="syntax-highlighter/scripts/shBrushCss.js"></script>
+<script src="syntax-highlighter/scripts/shBrushJScript.js"></script>
 
 </body>
 </html>
